@@ -1,6 +1,6 @@
 import ExpenseItem from './components/ExpenseItem';
 function App() {
-  const getDate = (date) => new Date(date).toString().substring(4, 15);
+  const getDate = (date) => new Date(date);
   const expenses = [
     {
       id: 1,
