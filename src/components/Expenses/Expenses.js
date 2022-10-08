@@ -1,6 +1,6 @@
 import './Expenses.css';
 import ExpenseItem from './ExpenseItem';
-import Card from './Card';
+import Card from '../UI/Card';
 const Expenses = function (props) {
   const expenseItemJSX = props.expenses.map((exp) => {
     return (
