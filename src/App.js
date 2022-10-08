@@ -1,5 +1,5 @@
 import Expenses from './components/Expenses/Expenses';
-function App() {
+const App = () => {
   const getDate = (date) => new Date(date);
   const expenses = [
     {
@@ -33,6 +33,6 @@ function App() {
       <Expenses expenses={expenses} />
     </div>
   );
-}
+};
 
 export default App;
